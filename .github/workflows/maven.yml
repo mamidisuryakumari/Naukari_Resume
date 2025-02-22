@@ -46,13 +46,11 @@ jobs:
       if: success() || failure()
       uses: PavanMudigonda/html-reporter-github-pages@v1.2
       with:
-        name: Cucumber-Report
         test_results: target/cucumber-reports
-        gh_pages: dev
-        subfolder: docs  
+        gh_pages: main
         tool_name: cucumber 
         workflow_name: selenium 
-        env: CI 
+        
 
    
      
