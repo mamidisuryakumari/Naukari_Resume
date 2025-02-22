@@ -47,7 +47,7 @@ jobs:
       uses: PavanMudigonda/html-reporter-github-pages@v1.2
       with:
         test_results: target/cucumber-reports
-        gh_pages: main
+        gh_pages: gh-pages
         tool_name: cucumber 
         workflow_name: selenium 
         
