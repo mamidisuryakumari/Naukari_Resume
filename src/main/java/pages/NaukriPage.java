@@ -24,7 +24,7 @@ public class NaukriPage {
 	private static By resumeHeadLineFld = By.id("resumeHeadlineTxt");
 	private static By saveBtn = By.xpath("//button[text()='Save']");
 
-	public String headLine = "Senior Automation Test Engineer | 7+ Yrs Exp | Selenium WebDriver | Java | Cucumber BDD | API & UI Testing | Agile | GitHub Actions";
+	public String headLine = "Senior Automation Test Engineer | 7+ Yrs Exp | Selenium WebDriver | Java | Cucumber BDD |UI Testing | Agile | GitHub Actions";
 	public String dummyText = "Selenium Automation Engineer Selenium Automation Engineer";
 
 	public void loginToNaukri(String userName, String password) {
